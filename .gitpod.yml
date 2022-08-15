@@ -2,7 +2,7 @@ image: gitpod/workspace-full:latest
 
 tasks:
   - init: pip install -r requirements.txt
-  - command: /workspace/dotfiles/start-tmux-and-install-slow-packages.sh
+  - command: /home/gitpod/.dotfiles/start-tmux-and-install-slow-packages.sh
 
 github:
   prebuilds:

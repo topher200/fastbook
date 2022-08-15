@@ -7,4 +7,4 @@ pandas
 scikit_learn
 azure-cognitiveservices-search-imagesearch
 sentencepiece
-fastbook=0.0.26
+fastbook==0.0.26

@@ -1,4 +1,13 @@
+image: gitpod/workspace-full:latest
+
 tasks:
   - init: pip install -r requirements.txt
   - command: /workspace/dotfiles/start-tmux-and-install-slow-packages.sh
 
+github:
+  prebuilds:
+    master: true
+    branches: true
+    pullRequests: true
+    # add a check to pull requests (defaults to true)
+    addCheck: true
